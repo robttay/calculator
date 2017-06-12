@@ -1,0 +1,35 @@
+* {
+  font: 24px arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.dark {
+  background-color: #3bb561;
+  color: white;
+  width: 80px;
+  height: 84px;
+}
+.lite {
+  background-color: #89dc93;
+  color: black;
+  width: 80px;
+  height: 84px;
+}
+
+display {
+  background-color: #3bb561;
+}
+
+#screen {
+  flex: 70%;
+  background-color: #3bb561;
+  color: white;
+  height: 80px;
+}
+#cButton {
+  flex: 28%;
+  height: 84px;
+}

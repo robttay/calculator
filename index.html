@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="main.css" rel="stylesheet">
+    <title>JS Calculator</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <input type="button" id="cButton" class="dark" value="C" OnClick="clearButton('')">
+            <input type="text" value=" " id="screen">
+        </div>
+
+        <div>
+            <input type="button" class="dark" value="7" OnClick="addNumber('7')">
+            <input type="button" class="dark" value="8" OnClick="addNumber('8')">
+            <input type="button" class="dark" value="9" OnClick="addNumber('9')">
+            <input type="button" class="lite" value="/" OnClick="addOperator('/')">
+        </div>
+
+        <div>
+            <input type="button" class="dark" value="4" OnClick="addNumber('4')">
+            <input type="button" class="dark" value="5" OnClick="addNumber('5')">
+            <input type="button" class="dark" value="6" OnClick="addNumber('6')">
+            <input type="button" class="lite" value="x" OnClick="addOperator('*')">
+        </div>
+
+        <div>
+            <input type="button" class="dark" value="1" OnClick="addNumber('1')">
+            <input type="button" class="dark" value="2" OnClick="addNumber('2')">
+            <input type="button" class="dark" value="3" OnClick="addNumber('3')">
+            <input type="button" class="lite" value="-" OnClick="addOperator('-')">
+        </div>
+
+        <div>
+            <input type="button" class="dark" value="0" OnClick="addNumber('0')">
+            <input type="button" class="dark" value="." OnClick="addDecimal('.')">
+            <input type="button" class="dark" value="=" OnClick="getTotal('=')">
+            <input type="button" class="lite" value="+" OnClick="addOperator('+')">
+        </div>
+    </form>
+
+
+
+
+    <script type="text/javascript " src="main.js "></script>
+</body>
+
+</html>
